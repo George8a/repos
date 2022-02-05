@@ -26,3 +26,4 @@ C:\Users\George\source\repos\olympo\CapaPresentacion\obj\Debug\net6.0-windows\Ca
 C:\Users\George\source\repos\olympo\CapaPresentacion\obj\Debug\net6.0-windows\ref\CapaPresentacion.dll
 C:\Users\George\source\repos\olympo\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.pdb
 C:\Users\George\source\repos\olympo\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.genruntimeconfig.cache
+C:\Users\George\source\repos\olympo\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Properties.Resources.resources
