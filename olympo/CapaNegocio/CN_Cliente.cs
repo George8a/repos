@@ -8,7 +8,7 @@ using CapaDatos;
 
 namespace CapaNegocio
 {
-    internal class CN_Cliente
+    public class CN_Cliente
     {
 
 

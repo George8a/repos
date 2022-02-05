@@ -111,7 +111,6 @@
             this.label3.Size = new System.Drawing.Size(70, 15);
             this.label3.TabIndex = 5;
             this.label3.Text = "1er Nombre";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -121,7 +120,6 @@
             this.label4.Size = new System.Drawing.Size(70, 15);
             this.label4.TabIndex = 7;
             this.label4.Text = "1er Apellido";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -175,7 +173,6 @@
             this.cmbBoxTipoDoc.Name = "cmbBoxTipoDoc";
             this.cmbBoxTipoDoc.Size = new System.Drawing.Size(98, 23);
             this.cmbBoxTipoDoc.TabIndex = 1;
-            this.cmbBoxTipoDoc.SelectedIndexChanged += new System.EventHandler(this.cmbBoxTipoDoc_SelectedIndexChanged);
             // 
             // textBox13
             // 
@@ -363,6 +360,7 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clientes";
+            this.Load += new System.EventHandler(this.FormCliente_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
