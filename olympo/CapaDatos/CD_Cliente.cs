@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 namespace CapaDatos
 {
-    internal class CD_Cliente
+    public class CD_Cliente
     {
         private CD_Conexion conexion = new CD_Conexion();
         SqlDataReader leer;
