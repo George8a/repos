@@ -32,7 +32,7 @@ namespace CapaDatos
             comando.CommandText = "insertarClientes";
             comando.CommandType = CommandType.StoredProcedure;
             comando.Parameters.AddWithValue("@documento", documento);
-            comando.Parameters.AddWithValue("@tipoDo", tipoDoc);
+            comando.Parameters.AddWithValue("@tipoDoc", tipoDoc);
             comando.Parameters.AddWithValue("@nombre1", nombre1);
             comando.Parameters.AddWithValue("@nombre2", nombre2);
             comando.Parameters.AddWithValue("@apellido1", apellido1);

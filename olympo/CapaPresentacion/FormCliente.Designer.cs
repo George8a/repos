@@ -30,9 +30,9 @@
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtboxDocumento = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtbox1Apellido = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -40,24 +40,25 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.cmbBoxTipoDoc = new System.Windows.Forms.ComboBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtbox1erNombre = new System.Windows.Forms.TextBox();
+            this.txtbox2Apellido = new System.Windows.Forms.TextBox();
+            this.txtbox2Nombre = new System.Windows.Forms.TextBox();
+            this.txtboxDireccion = new System.Windows.Forms.TextBox();
+            this.txtboxCorreo = new System.Windows.Forms.TextBox();
+            this.txtboxTelefono = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtboxTelefonoContacto = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtboxContactoEmergecia = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtboxObservacionesMedicas = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -80,12 +81,12 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Tipo Doc";
             // 
-            // textBox2
+            // txtboxDocumento
             // 
-            this.textBox2.Location = new System.Drawing.Point(709, 202);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(98, 23);
-            this.textBox2.TabIndex = 2;
+            this.txtboxDocumento.Location = new System.Drawing.Point(709, 202);
+            this.txtboxDocumento.Name = "txtboxDocumento";
+            this.txtboxDocumento.Size = new System.Drawing.Size(98, 23);
+            this.txtboxDocumento.TabIndex = 2;
             // 
             // label2
             // 
@@ -96,12 +97,12 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Documento";
             // 
-            // textBox3
+            // txtbox1Apellido
             // 
-            this.textBox3.Location = new System.Drawing.Point(554, 315);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(141, 23);
-            this.textBox3.TabIndex = 5;
+            this.txtbox1Apellido.Location = new System.Drawing.Point(554, 315);
+            this.txtbox1Apellido.Name = "txtbox1Apellido";
+            this.txtbox1Apellido.Size = new System.Drawing.Size(141, 23);
+            this.txtbox1Apellido.TabIndex = 5;
             // 
             // label3
             // 
@@ -174,47 +175,47 @@
             this.cmbBoxTipoDoc.Size = new System.Drawing.Size(98, 23);
             this.cmbBoxTipoDoc.TabIndex = 1;
             // 
-            // textBox13
+            // txtbox1erNombre
             // 
-            this.textBox13.Location = new System.Drawing.Point(554, 257);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(141, 23);
-            this.textBox13.TabIndex = 3;
+            this.txtbox1erNombre.Location = new System.Drawing.Point(554, 257);
+            this.txtbox1erNombre.Name = "txtbox1erNombre";
+            this.txtbox1erNombre.Size = new System.Drawing.Size(141, 23);
+            this.txtbox1erNombre.TabIndex = 3;
             // 
-            // textBox1
+            // txtbox2Apellido
             // 
-            this.textBox1.Location = new System.Drawing.Point(705, 313);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(141, 23);
-            this.textBox1.TabIndex = 6;
+            this.txtbox2Apellido.Location = new System.Drawing.Point(705, 313);
+            this.txtbox2Apellido.Name = "txtbox2Apellido";
+            this.txtbox2Apellido.Size = new System.Drawing.Size(141, 23);
+            this.txtbox2Apellido.TabIndex = 6;
             // 
-            // textBox4
+            // txtbox2Nombre
             // 
-            this.textBox4.Location = new System.Drawing.Point(705, 257);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(141, 23);
-            this.textBox4.TabIndex = 4;
+            this.txtbox2Nombre.Location = new System.Drawing.Point(705, 257);
+            this.txtbox2Nombre.Name = "txtbox2Nombre";
+            this.txtbox2Nombre.Size = new System.Drawing.Size(141, 23);
+            this.txtbox2Nombre.TabIndex = 4;
             // 
-            // textBox5
+            // txtboxDireccion
             // 
-            this.textBox5.Location = new System.Drawing.Point(554, 366);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(292, 23);
-            this.textBox5.TabIndex = 7;
+            this.txtboxDireccion.Location = new System.Drawing.Point(554, 366);
+            this.txtboxDireccion.Name = "txtboxDireccion";
+            this.txtboxDireccion.Size = new System.Drawing.Size(292, 23);
+            this.txtboxDireccion.TabIndex = 7;
             // 
-            // textBox6
+            // txtboxCorreo
             // 
-            this.textBox6.Location = new System.Drawing.Point(554, 416);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(141, 23);
-            this.textBox6.TabIndex = 8;
+            this.txtboxCorreo.Location = new System.Drawing.Point(554, 416);
+            this.txtboxCorreo.Name = "txtboxCorreo";
+            this.txtboxCorreo.Size = new System.Drawing.Size(141, 23);
+            this.txtboxCorreo.TabIndex = 8;
             // 
-            // textBox7
+            // txtboxTelefono
             // 
-            this.textBox7.Location = new System.Drawing.Point(705, 416);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(141, 23);
-            this.textBox7.TabIndex = 9;
+            this.txtboxTelefono.Location = new System.Drawing.Point(705, 416);
+            this.txtboxTelefono.Name = "txtboxTelefono";
+            this.txtboxTelefono.Size = new System.Drawing.Size(141, 23);
+            this.txtboxTelefono.TabIndex = 9;
             // 
             // label9
             // 
@@ -225,12 +226,12 @@
             this.label9.TabIndex = 31;
             this.label9.Text = "Telefono";
             // 
-            // textBox8
+            // txtboxTelefonoContacto
             // 
-            this.textBox8.Location = new System.Drawing.Point(705, 477);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(141, 23);
-            this.textBox8.TabIndex = 11;
+            this.txtboxTelefonoContacto.Location = new System.Drawing.Point(705, 477);
+            this.txtboxTelefonoContacto.Name = "txtboxTelefonoContacto";
+            this.txtboxTelefonoContacto.Size = new System.Drawing.Size(141, 23);
+            this.txtboxTelefonoContacto.TabIndex = 11;
             // 
             // label10
             // 
@@ -241,12 +242,12 @@
             this.label10.TabIndex = 35;
             this.label10.Text = "Telefono contacto";
             // 
-            // textBox9
+            // txtboxContactoEmergecia
             // 
-            this.textBox9.Location = new System.Drawing.Point(554, 477);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(141, 23);
-            this.textBox9.TabIndex = 10;
+            this.txtboxContactoEmergecia.Location = new System.Drawing.Point(554, 477);
+            this.txtboxContactoEmergecia.Name = "txtboxContactoEmergecia";
+            this.txtboxContactoEmergecia.Size = new System.Drawing.Size(141, 23);
+            this.txtboxContactoEmergecia.TabIndex = 10;
             // 
             // label11
             // 
@@ -257,13 +258,13 @@
             this.label11.TabIndex = 33;
             this.label11.Text = "Contacto de emergencia";
             // 
-            // textBox10
+            // txtboxObservacionesMedicas
             // 
-            this.textBox10.Location = new System.Drawing.Point(556, 535);
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(290, 61);
-            this.textBox10.TabIndex = 12;
+            this.txtboxObservacionesMedicas.Location = new System.Drawing.Point(556, 535);
+            this.txtboxObservacionesMedicas.Multiline = true;
+            this.txtboxObservacionesMedicas.Name = "txtboxObservacionesMedicas";
+            this.txtboxObservacionesMedicas.Size = new System.Drawing.Size(290, 61);
+            this.txtboxObservacionesMedicas.TabIndex = 12;
             // 
             // label12
             // 
@@ -283,32 +284,33 @@
             this.pictureBox1.TabIndex = 39;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
+            // btnGuardar
             // 
-            this.button1.Location = new System.Drawing.Point(558, 617);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 33);
-            this.button1.TabIndex = 40;
-            this.button1.Text = "Guardar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnGuardar.Location = new System.Drawing.Point(558, 617);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(105, 33);
+            this.btnGuardar.TabIndex = 40;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnEditar
             // 
-            this.button2.Location = new System.Drawing.Point(12, 617);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(105, 33);
-            this.button2.TabIndex = 41;
-            this.button2.Text = "Editar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnEditar.Location = new System.Drawing.Point(12, 617);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(105, 33);
+            this.btnEditar.TabIndex = 41;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnEliminar
             // 
-            this.button3.Location = new System.Drawing.Point(137, 617);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(105, 33);
-            this.button3.TabIndex = 42;
-            this.button3.Text = "Eliminar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnEliminar.Location = new System.Drawing.Point(137, 617);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(105, 33);
+            this.btnEliminar.TabIndex = 42;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
@@ -319,39 +321,47 @@
             this.button4.Text = "Cargar";
             this.button4.UseVisualStyleBackColor = true;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(692, 617);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(141, 23);
+            this.textBox1.TabIndex = 44;
+            // 
             // FormCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(861, 663);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox13);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnEditar);
+            this.Controls.Add(this.btnGuardar);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.txtboxObservacionesMedicas);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.txtboxTelefonoContacto);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.txtboxContactoEmergecia);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.txtboxTelefono);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.txtboxCorreo);
+            this.Controls.Add(this.txtboxDireccion);
+            this.Controls.Add(this.txtbox2Apellido);
+            this.Controls.Add(this.txtbox2Nombre);
+            this.Controls.Add(this.txtbox1erNombre);
             this.Controls.Add(this.cmbBoxTipoDoc);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtbox1Apellido);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtboxDocumento);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
@@ -372,9 +382,9 @@
 
         private DataGridView dataGridView1;
         private Label label1;
-        private TextBox textBox2;
+        private TextBox txtboxDocumento;
         private Label label2;
-        private TextBox textBox3;
+        private TextBox txtbox1Apellido;
         private Label label3;
         private Label label4;
         private Label label5;
@@ -382,23 +392,24 @@
         private Label label7;
         private Label label8;
         private ComboBox cmbBoxTipoDoc;
-        private TextBox textBox13;
-        private TextBox textBox1;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
+        private TextBox txtbox1erNombre;
+        private TextBox txtbox2Apellido;
+        private TextBox txtbox2Nombre;
+        private TextBox txtboxDireccion;
+        private TextBox txtboxCorreo;
+        private TextBox txtboxTelefono;
         private Label label9;
-        private TextBox textBox8;
+        private TextBox txtboxTelefonoContacto;
         private Label label10;
-        private TextBox textBox9;
+        private TextBox txtboxContactoEmergecia;
         private Label label11;
-        private TextBox textBox10;
+        private TextBox txtboxObservacionesMedicas;
         private Label label12;
         private PictureBox pictureBox1;
-        private Button button1;
-        private Button button2;
-        private Button button3;
+        private Button btnGuardar;
+        private Button btnEditar;
+        private Button btnEliminar;
         private Button button4;
+        private TextBox textBox1;
     }
 }
